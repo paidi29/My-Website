@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head><style>
+    .box{
+        width: 350px;
+        height: 500px;
+        float: left;
+        border: 5px solid rgb(152, 178, 170);
+        border-style: outset;
+        margin-left: 2%;
+        margin-top:2%;
+
+    }
+    .box ul li{
+        width: 300px;
+        
+        
+        text-align: left;
+
+    }
+    .box ul  li a{text-decoration: none;
+    color: darkgray;}
+    .box ul li:hover{background-color: rgb(70, 107, 70);}
+    .box ul li a:hover{columns: white;
+    }
+</style>
+<body>
+    <u><H1>DIFFERENT RESTAURANTS</H1></u>
+    
+<div class="box">
+<ul type ="none">
+
+    <ul><h3><a href="coffee.html"><li>ITALIAN FAST FOOD RESTAURANT</li></a><BR><br></h3>
+    <h3><a href="coffee.html"><LI>CASUAL DINNING  RESTAURANTS</LI></a><BR></h3>
+    <h3><a href="coffee.html"><LI>CAFETERIA & COFFEE RESTAURANT</LI></a><BR></h3>
+    <h3><a href="coffee.html"><LI>PUB RESTAURANT</LI></a><BR></h3>
+    <h3><a href="coffee.html"><LI>BISTRO & BRASSERIE RESTAURANT</LI></a><BR></h3>
+    <h3><a href="coffee.html"><LI>ETHNIC RESTAURANT</LI></a>
+</h3></ul></ul>
+</div>
+    
+    
+    <div class="slidershow middle">
+        <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <input type="radio" name="r" id="r4">
+            <input type="radio" name="r" id="r5">
+            <input type="radio" name="r" id="r6">
+            
+            <div class="slide s1">
+                <img src="/images/fastfood.png" width=""  alt="">
+            </div>
+            <div class="slide">
+                <img src="/images/casual.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="/images/coffe.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="/images/pub.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="/images/bistro.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="/images/ethnic.png" alt="">
+            </div>
+
+        </div>
+        <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+            <label for="r5" class="bar"></label>
+            <label for="r6" class="bar"></label>
+        </div>
+    </div>
+    
+
+           
+        
+</body>
+</html>
